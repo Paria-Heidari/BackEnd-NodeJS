@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 const Leaders = require('../models/leaders');
-
+var authenticate = require('../authenticate');
 
 const leaderRouter = express.Router();
 
